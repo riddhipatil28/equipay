@@ -114,11 +114,6 @@ backend/
 - `frontend` – React application
 - `backend` – Express API & database logic
 
----
-
-## License
-
-This project is for academic and demonstration purposes.
 
 ---
 
