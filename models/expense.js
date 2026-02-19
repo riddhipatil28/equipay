@@ -33,6 +33,16 @@ const expenseSchema = new mongoose.Schema(
       },
     ],
 
+    splits: [
+      {
+        userId: {
+          type: mongoose.Schema.Types.ObjectId,
+          ref: "User",
+        },
+        amount: Number,
+      },
+    ],
+
     isSettled: {
       type: Boolean,
       default: false,
